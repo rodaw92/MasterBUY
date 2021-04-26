@@ -1,0 +1,136 @@
+html{
+    font-size: 62.5%; /* 16px * 62.5 = 10px = 1 rem*/
+    box-sizing: border-box;
+}
+body{
+    font: 1.6rem helvetica  ;
+    height: 100vh;
+    margin: 0;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+}
+.header{
+    grid-area: header;
+    background-color: #203040;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.brand a{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-links a:hover{
+    color: #ff8800;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+    background-color: #203040;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a {
+    text-decoration: none;
+        list-style-type: none;
+
+}
+a:hover{
+    color: #ff8800;
+}
+/* Home screen*/
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products li{
+    list-style-type: none;
+    padding: 0;
+    flex: 0 1 34rem;
+    margin: 1rem;
+    height: 50rem;
+    border-bottom: .1rem#c0c0c0 solid;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.product-name{
+    font-size: 2rem;
+    font-weight: bold;
+} 
+.product-brand{
+    font-size: 1.2rem;
+    color: #808080
+}
+.product-price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.product-image{
+    max-width: 45rem;
+    max-width: 34rem;
+}
+.product-ratings{
+    margin-bottom: 1rem;
+}
+
+/* side bar */
+.brand button{
+    size: 13rem;
+    padding: .5rem;
+    background: none;
+    border: none;
+    color: #ffffff ;
+    cursor: pointer;
+}
+.sidebar {
+    position: fixed; /*to make it at the top*/
+    transform: translateX(-30rem); /* to keep the side par at the left side ot of the secreen*/
+    width: 30rem;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+.sidebar.open{
+    transform: translateX(0); /* when open is applied to show the sildebar to the user*/
+}
+.sidebar-close-button{
+    border-radius: 50%;
+    border: .1rem #000000 solid;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    font-size: 2rem;
+    padding-top: 2px;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: 1.5rem;
+}
