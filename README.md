@@ -55,11 +55,6 @@ default driver. I added a listener as view results tree. Finally run the test pl
 5. I tested all APIs in my application using developer tools feature in chrome web browser, by viewing XHR requests which received by the browser, where each service call will return its output in JSON format.
 
 ## References
-1.  https://github.com/neo4j-labs/neosemantics
-2.  https://neo4j.com/labs/neosemantics/4.0/
-3.  https://neo4j.com/labs/neosemantics/4.0/config/
-4.  https://neo4j.com/labs/neosemantics/4.0/import/
-5.  https://medium.com/@hazzindu/import-ontology-to-neo4j-d3524f5e47dd](https://www.w3schools.com/
 6. https://stackoverflow.com/
 7. https://reactjs.org/
 8. https://redux.js.org/
