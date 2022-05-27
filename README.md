@@ -31,7 +31,7 @@ JavaScript, implement frontend using React and Redux, build a web API using Node
 4. Add Redux to Home Screen
 ![Parts](https://github.com/rodaw92/Aerospace-Ontology/blob/main/bloom%20client.png)
 6. Connect to MongoDB
-![Parts](https://github.com/rodaw92/Aerospace-Ontology/blob/main/bloom%20client.png)
+![Parts](https://github.com/rodaw92/MasterBUY/blob/main/mongodb.png)
 7. Create Place Order API
     
 ### Testing Results:
