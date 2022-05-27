@@ -1,7 +1,6 @@
 # MasterBUY
 
 
-![Parts](https://github.com/rodaw92/Aerospace-Ontology/blob/main/bloom%20client.png)
 
 ---------
 ## Project Structure
@@ -28,10 +27,10 @@ JavaScript, implement frontend using React and Redux, build a web API using Node
 1. Create React App.
 2. Create Node.Js Server
 3. Fetch server Data
-4. Add Redux to Home Screen
-![Parts](https://github.com/rodaw92/MasterBUY/blob/main/redux_store.png)
-6. Connect to MongoDB
-![Parts](https://github.com/rodaw92/MasterBUY/blob/main/mongodb.png)
+4. Add Redux to Home Screen.
+      ![Parts](https://github.com/rodaw92/MasterBUY/blob/main/redux_store.png)
+6. Connect to MongoDB.
+      ![Parts](https://github.com/rodaw92/MasterBUY/blob/main/mongodb.png)
 7. Create Place Order API
     
 ### Testing Results:
