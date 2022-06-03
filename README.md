@@ -4,9 +4,7 @@
 
 ---------
 ## Project Structure
-MasterBUY is a fully functional website designed to help users purchase through it by a userfriendly frontend and to help the Admin user manage products, which are available on the website,
-and customers’ orders. The website developed with a scalable backend and connected to a payment gateway (PayPal). The used languages/Techniques are HTML and CSS, user interactivity by
-JavaScript, implement frontend using React and Redux, build a web API using Node and MongoDB.
+Independently designed a fully functional website, MasterBUY, as an open-source project, to help users purchase products through a user-friendly front-end and help the admin user manage products available on the website and customers’ orders. The website was developed with a scalable backend and connected to a payment gateway (PayPal). The used languages/Techniques are HTML and CSS, and user interactivity by JavaScript, implement frontend using React and Redux and build a web API using Node Js and MongoDB.
 
 
 ## Techniques and developing Languages:
